@@ -3,7 +3,7 @@ pub fn factorial(n: u32) -> u32 {
     let mut answer = 1;
     let mut counter = n;
     while counter > 1 {
-        answer *= counter - 1;
+        answer *= counter;
         counter -= 1;
     }
     answer
